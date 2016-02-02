@@ -1,0 +1,195 @@
+/*
+/
+////Import fonts from google fonts////
+/
+*/
+@import url(https://fonts.googleapis.com/css?family=Source+Code+Pro:400,700,900,500,600);/*
+/
+////Removes preformated margin and padding from normalize.css////
+/
+*/
+*{
+  margin:0;
+  padding:0;
+}
+/*
+/
+////Begin normal css////
+/
+*/
+body {
+  background:#E8EDF1;
+  color:#39474e;
+  font-family: 'Source Code Pro', sans-serif;
+  overflow-x:hidden;
+  letter-spacing:1px;
+}
+.heroBG{
+  height:relative;
+  background-image:url("https://source.unsplash.com/random");
+  background-repeat:no-repeat;
+  background-size:cover;
+}
+.hero{
+  height:relative;
+  background-color:rgba(44, 55, 64, 0.75);
+}
+.hero h1{
+  vertical-align:middle;
+  font-size:4em;
+  color:white;
+  margin:auto;
+  padding:10% 15% 10% 5%;
+  opacity:1;
+}
+h1{
+  font-size:2em;
+  font-weight:800;
+}
+h2{
+  font-size:1.85em;
+}
+h3{
+  font-size:1.6em;
+}
+h6{
+  font-size:1.25em;
+  font-weight:600;
+  margin-bottom:25px;
+}
+p{
+  font-size:1.1em;
+  font-weight:400;
+  line-height:30px;
+  word-wrap: break-word;
+}
+li {
+  list-style:none;
+}
+/*
+////Primary Navigation////
+*/
+header{
+  display:inline-block;
+  /*background:blue;*/
+  width:100%;
+  background:#2C3740;
+  padding:1%;
+  padding-left:5%;
+  padding-right:5%;
+}
+li.feeLogo img {
+    display:inline-block;
+    max-height: 60px;
+    border-radius:100%;
+    background-color:white;
+}
+nav {
+  /*border:1px solid #C0D0D8;
+  border-radius:10px;*/
+  display:inline-block;
+  width:100%;
+}
+nav li {
+  display:inline-block;
+  list-style:none;
+  vertical-align: middle;
+}
+nav ul{
+  display:inline-block;
+  width:100%;
+}
+nav ul li{
+  margin-right:50px;
+}
+hr{
+  border:none;
+  height:2px;
+  background:#C0D0D8;
+}
+/*
+////Link Styles////
+*/
+a{
+  color:#7C9291;
+  text-decoration:none;
+  transition:.2s all;
+  padding-bottom:3px;
+}
+a:hover{
+  color:#D65151;
+}
+p a{
+  color:#D65151;
+}
+p a:hover{
+  color:#7C9291;
+}
+/*
+This is a fake active state
+*/
+.active{
+  color:#D65151;
+}
+/*
+////Structure Type Stuff////
+*/
+.section{
+  max-width:1160px;
+  margin:auto;
+  padding:0 5%;
+}
+.left{
+  position:relative;
+  width:20%;
+  float:left;
+}
+.right{
+  position:relative;
+  width:75%;
+  float:left;
+}
+.tripleBlock{
+  width:33%;
+  float:left;
+}
+/*
+////Content////
+*/
+.innerContent{
+  margin-top:3%;
+}
+.statement{
+  padding-bottom: 3%;
+  padding-right:30px;
+}
+.pageTitle{
+  margin:5% 0;
+}
+/*
+////Notes Page///
+*/
+p.block{
+  width:33%;
+  margin:10% 0;
+}
+.innerCopy ul li{
+    margin: 0 0 5% 0;
+    background: #DFE6EC;
+    padding: 25px;
+  }
+  .innerCopy ul li.week{
+    background:none;
+    padding:0;
+  }
+  /*
+  ////Demos////
+  */
+  textarea{
+    width:100%;
+    height:700px;
+    padding:1%;
+    border:none;
+    background:#DFE6EC;
+    color:#5A6065;
+    }

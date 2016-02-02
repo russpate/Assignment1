@@ -1,0 +1,22 @@
+/*
+//// This media query was pulled from:
+https://developer.mozilla.org/en-US/docs/Web/CSS/Media_Queries/Using_media_queries////
+*/
+
+@media (max-width: 800px) {
+  nav ul li{
+    margin-right:7px;
+  }
+  .right, .left{
+    width:100%;
+  }
+  .hero h1{
+    font-size:2em;
+  }
+  .statement{
+    padding:10% 0;
+  }
+  .tripleBlock{
+    width:100%;
+  }
+}
